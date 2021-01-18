@@ -11,7 +11,7 @@ try {
     const str2 = "'abc'"
     JSON.parse(str2)
 } catch (error) {
-    // JSON での文字列はシングルクオートではなく""で囲む必要があるため。
+    // JSON での文字列は''ではなく""で囲む必要があるため。
 }
 
 const str3 = '"abc"'
@@ -27,5 +27,5 @@ JSON.parse(str3)
         JSON.parse(str6)
     } catch (error) {
         console.log(error)
-        // JSON のキーはダブルクオーテーション("")で囲む必要があるため。
+        // JSON のキーは""で囲む必要があるため。
     }
