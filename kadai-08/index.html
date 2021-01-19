@@ -3,7 +3,9 @@
     <meta charset="utf-8">
     <style>
         button {
-            font-size:32px;
+            font-size:28px;
+            color:gold;
+            background-color:black;
         }
     </style>
 </head>
@@ -25,11 +27,13 @@
             } else if (luck > 0.7) {
                 alert('吉です!')
             } else if (luck > 0.6) {
-                alert('中吉です!')
+                alert('中吉です')
             } else if (luck > 0.5) {
                 alert('半吉です。')
-            } else {
+            } else if (luck > 0.2) {
                 alert('凶です..')
+            } else {
+                alert('大凶です..')
             }
         })
     </script>
