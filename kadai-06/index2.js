@@ -27,5 +27,5 @@ JSON.parse(str3)
         JSON.parse(str6)
     } catch (error) {
         console.log(error)
-        // JSON のキーは""で囲む必要があるため。
+        // JSON のキーは''ではなく""で囲む必要があるため。
     }
